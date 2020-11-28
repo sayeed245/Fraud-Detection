@@ -1,6 +1,6 @@
 # E-Commerce Transaction Fraud Detection
 ## Overview
-In this competition, you’ll benchmark machine learning models on a challenging large-scale dataset. The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features. You also have the opportunity to create new features to improve your results.  
+In this competition, you’ll benchmark machine learning models on a challenging large-scale dataset. You also have the opportunity to create new features to improve your results.  
 ## Motivation
 ## Technical Aspect
 This project is divided into two part:
@@ -12,6 +12,7 @@ This project is divided into two part:
     - Used __Sentry__ to catch the exception on the back-end.
     - After uploading the image, the predictions are displayed on a __Bar Chart__.
 ## Data
+The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features.
 ### Transaction Table
 **TransactionDT:** timedelta from a given reference datetime (not an actual timestamp)  
 **TransactionAMT:** transaction payment amount in USD  
@@ -68,6 +69,13 @@ gunicorn wsgi:app
 ```
 ## Bug / Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/sayeed245/Fraud-Detection/issues/new) by including your search query and the expected result.
+
+## Technologies Used
+
+## Credits
+
+## Connect
+
 
 # Credit Card Fraud Detection
 
