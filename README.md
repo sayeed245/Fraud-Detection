@@ -8,7 +8,7 @@
   * [Credits](#credits)
   * [Connect](#connect)
 ## Overview
-[Ecommerce frauds](https://review42.com/ecommerce-fraud-statistics/) increased by 45% in 2017 alone leading to losses of $57.8 billion across 8 big industries. The dataset used in this repository is provided by Vesta Corporation to detect fraudalent online transactions. There are 2 classification models:
+[Ecommerce frauds](https://review42.com/ecommerce-fraud-statistics/) increased by 45% in 2017 alone leading to losses of $57.8 billion across 8 big industries. The dataset used in this repository is provided by Vesta Corporation to detect fraudalent E-Commerce online transactions. There are 2 classification models:
 1. [IEEE](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE.ipynb): To find the best features for interpretibility to predict fraudalent E-Commerce transactions
 2. [IEEE LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): To predict fraudalent E-Commerce transactions
 ## Data
