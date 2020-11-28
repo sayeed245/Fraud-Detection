@@ -15,7 +15,9 @@
   * [License](#license)
   * [Credits](#credits)
 ## Overview
-In this competition, you’ll benchmark machine learning models on a challenging large-scale dataset. You also have the opportunity to create new features to improve your results.  
+This is a classification model to predict fraudalent E-Commerce transactions:
+1. [IEEE](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE.ipynb):The missing values were imputed and LightGBM was used to select 11.5% (50/433) features. VIF was applied to further select(29/50) features. Created 55 new features from these 29 selected feautres. Negated the class imbalance by applying SMOTE and achieved an AUC score of 0.69 using Logistic Regression with 7%(29/433) of the features for interpretebility
+2. [IEEE LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): Imputed missing values and appied LightGBM with KFold cross validation. Achieved a mean AUC score of 0.929 and out of fold AUC of 0.927. Created 137 new features and achieved an 0.55% increase in mean AUC score with 0.934 and 0.61% increase in out of fold AUC score with 0.932
 ## Motivation
 What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding and reading some latest research papers on weekends. The idea of classifying indian currency struck to me when I was browsing through some research papers. I couldn't find any relevant research paper (and of course dataset!) associated with it. And that led me to collect the images of Indian currency to train a deep learning model using [this](https://github.com/hardikvasa/google-images-download) amazing tool.
 ## Technical Aspect
