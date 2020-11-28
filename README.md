@@ -15,6 +15,13 @@ In this competition, you’ll benchmark machine learning models on a challenging
 **D1-D15:** timedelta, such as days between previous transaction, etc.  
 **M1-M9:** match, such as names on card and address, etc.  
 **Vxxx:** Vesta engineered rich features, including ranking, counting, and other entity relations.    
+**Categorical Features:**
+ProductCD,card1 - card6,addr1, addr2,P_emaildomain,R_emaildomain,M1 - M9
+### Identity Table
+Variables in this table are identity information – network connection information (IP, ISP, Proxy, etc) and digital signature (UA/browser/os/version, etc) associated with transactions.
+(The field names are masked and pairwise dictionary will not be provided for privacy protection and contract agreement)  
+**Categorical Features:**
+DeviceType,DeviceInfo,id_12 - id_38
   
 
 # Credit Card Fraud Detection
