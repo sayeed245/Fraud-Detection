@@ -4,9 +4,9 @@
   * [Data](#data)
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
-  * [Bug / Feature Request](#bug---feature-request)
+  * [Bug/Feature Request](#bug-feature-request)
   * [Credits](#credits)
-  * [Connect / Follow](#connect---follow)
+  * [Connect/Follow](#connect-follow)
 ## Overview
 [Ecommerce frauds](https://review42.com/ecommerce-fraud-statistics/) increased by 45% in 2017 alone leading to losses of $57.8 billion across 8 big industries. The dataset used in this repository is provided by Vesta Corporation to detect fraudalent online transactions. There are 2 classification models:
 1. [IEEE](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE.ipynb): To find the best features for interpretibility to predict fraudalent E-Commerce transactions
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/sayeed245/Fraud-Detection/issues/new) by including your search query and the expected result.
 ## Credits
 [Vesta Corporation](https://trustvesta.com/) for providing datasets to host [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview) competition in Kaggle.
-## Connect / Follow
+## Connect/Follow
 #### LinkedIn: [https://www.linkedin.com/in/sayeed-mohammad-83b691108/](https://www.linkedin.com/in/sayeed-mohammad-83b691108/)
 #### Twitter: [https://twitter.com/6SAYEED](https://twitter.com/6SAYEED)
 #### Tableau Public: [https://public.tableau.com/profile/sayeed.mohammad#!/](https://public.tableau.com/profile/sayeed.mohammad#!/)
