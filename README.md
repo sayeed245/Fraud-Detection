@@ -17,7 +17,7 @@
 ## Overview
 This is a classification model to predict fraudalent E-Commerce transactions:
 1. [IEEE](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE.ipynb):The missing values were imputed and LightGBM was used to select 11.5% (50/433) features. VIF was applied to further select(29/50) features. Created 55 new features from these 29 selected feautres. Negated the class imbalance by applying SMOTE and achieved an AUC score of 0.69 using Logistic Regression with 7%(29/433) of the features for interpretebility
-2. [IEEE LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): Imputed missing values and appied LightGBM with KFold cross validation. Achieved a mean AUC score of 0.929 and out of fold AUC of 0.927. Created 137 new features and achieved an 0.55% increase in mean AUC score with 0.934 and 0.61% increase in out of fold AUC score with 0.932
+2. [IEEE LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): Imputed missing values and applied LightGBM with KFold cross validation. Achieved a mean AUC score of 0.929 and out of fold AUC of 0.927. Created 137 new features and achieved an 0.55% increase in mean AUC score with 0.934 and 0.61% increase in out of fold AUC score with 0.932
 ## Motivation
 What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding and reading some latest research papers on weekends. The idea of classifying indian currency struck to me when I was browsing through some research papers. I couldn't find any relevant research paper (and of course dataset!) associated with it. And that led me to collect the images of Indian currency to train a deep learning model using [this](https://github.com/hardikvasa/google-images-download) amazing tool.
 ## Technical Aspect
@@ -55,43 +55,13 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 ```bash
 pip install -r requirements.txt
 ```
-
-## Run
-> STEP 1
-#### Linux and macOS User
-Open `.bashrc` or `.zshrc` file and add the following credentials:
-```bash
-export AWS_ACCESS_KEY="your_aws_access_key"
-export AWS_SECRET_KEY="your_aws_secret_key"
-export ICP_BUCKET='your_aws_bucket_name'
-export ICP_BUCKET_REGION='bucket_region'
-export ICP_UPLOAD_DIR='bucket_path_to_save_images'
-export ICP_PRED_DIR='bucket_path_to_save_predictions'
-export ICP_FLASK_SECRET_KEY='anything_random_but_unique'
-export SENTRY_INIT='URL_given_by_sentry'
-```
-Note: __SENTRY_INIT__ is optional, only if you want to catch exceptions in the app, else comment/remove the dependencies and code associated with sentry in `app/main.py`
-
-#### Windows User
-Since, I don't have a system with Windows OS, here I collected some helpful resource on adding User Environment Variables in Windows.
-
-__Attention__: Please perform the steps given in these tutorials at your own risk. Please don't mess up with the System Variables. It can potentially damage your PC. __You should know what you're doing__. 
-- https://www.tenforums.com/tutorials/121855-edit-user-system-environment-variables-windows.html
-- https://www.onmsft.com/how-to/how-to-set-an-environment-variable-in-windows-10
-
-> STEP 2
-
-To run the app in a local machine, shoot this command in the project directory:
-```bash
-gunicorn wsgi:app
-```
 ## Bug / Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/sayeed245/Fraud-Detection/issues/new) by including your search query and the expected result.
 
 ## Technologies Used
 
 ## Credits
-## Connect
+## Connect/Follow
 #### LinkedIn: [https://www.linkedin.com/in/sayeed-mohammad-83b691108/](https://www.linkedin.com/in/sayeed-mohammad-83b691108/)
 #### Twitter: [https://twitter.com/6SAYEED](https://twitter.com/6SAYEED)
 #### Tableau Public: [https://public.tableau.com/profile/sayeed.mohammad#!/](https://public.tableau.com/profile/sayeed.mohammad#!/)
