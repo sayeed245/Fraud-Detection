@@ -33,13 +33,13 @@ Variables in this table are identity information – network connection informat
 **Categorical Features:**
 DeviceType,DeviceInfo,id_12 - id_38
 ## Technical Aspect
-1. [IEEE](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE.ipynb):
+1. [Fraud](https://github.com/sayeed245/Fraud-Detection/blob/main/Fraud.ipynb):
      - Missing values were imputed and LightGBM was used to select 11.5% (50/433) features
      - VIF was applied to further select(29/50) features
      - Generated 55 new features from the selected 29 feautres
      - Negated the class imbalance by applying SMOTE
      - Achieved an AUC score of 0.69 using Logistic Regression with 7%(29/433) of the features for interpretebility
-2. [IEEE LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): 
+2. [Fraud LightGBM CV](https://github.com/sayeed245/Fraud-Detection/blob/main/IEEE%20LightGBM%20CV.ipynb): 
      - Imputed missing values and applied LightGBM with KFold cross validation
      - Achieved a mean AUC score of 0.929 and out of fold AUC of 0.927
      - Generated 137 new features from 433 features
